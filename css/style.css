@@ -1,3 +1,7 @@
+/* Aca se podria trabajar con Grid para acomodar las cajas y despues con flexbox para acomodar internamente. */
+
+/* Otra cosa importante que tenes que empezar a ver es de usar BEM */
+
 body {
     box-sizing: border-box;
     background-color: red;
