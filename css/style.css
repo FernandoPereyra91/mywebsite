@@ -3,16 +3,15 @@
 /* Otra cosa importante que tenes que empezar a ver es de usar BEM */
 
 
-
-
 *{
     box-sizing: border-box;
     background-color: burlywood;
 }
-/* llamo el atributo dese el html(<ul class= flex-container")*/
 
-h1{text-shadow: 0.1em 0.1em rgb(0, 0, 0)}
 
+h1{text-shadow: 0.1em 0.1em rgb(0, 0, 0)}/*puse sombra aunque no sirva jajaja*/
+
+/* intente poner la caja h1 como estan los del nav, pero no pude. Seguro q es xq falta una que la contenga, igual le deje el formato*/
 h1{
     display: flex;
     color: rgb(171, 255, 27);
@@ -23,6 +22,7 @@ h1{
     border: 2px solid black
 
  }
+/* llamo el atributo dese el html(<ul class= flex-container")*/
 
 .flex-container{
     display: flex;
