@@ -5,9 +5,14 @@
 
 *{
     box-sizing: border-box;
-    background-color: burlywood;
+    ;
 }
+body{
+    background: url(../Multimedia/1366_2000.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 
+}
 
 h1{text-shadow: 0.1em 0.1em rgb(0, 0, 0)}/*puse sombra aunque no sirva jajaja*/
 
@@ -48,8 +53,4 @@ h1{
 }
 
 
-
-    
-
-    
 
