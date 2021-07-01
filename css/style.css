@@ -43,14 +43,21 @@ h1{
 
 .flex-container li{
     background-color: rgb(175, 255, 46);
-    width: 100px;
+    width: 150px;
     margin: 10px;
     text-align: center;
     line-height: 70px;
     font-size: 15px;
+    font-family:minimal;
     border: 2px solid black  
         
 }
 
-
-
+@font-face {
+    font-family:Minimal;
+    src: url(/Fuentes/Minimal.ttf);
+}
+figcaption p{
+    font-family:IDM\ Minimal;
+    font-size: 20px;
+}
