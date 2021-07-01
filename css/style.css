@@ -2,7 +2,54 @@
 
 /* Otra cosa importante que tenes que empezar a ver es de usar BEM */
 
-body {
+
+
+
+*{
     box-sizing: border-box;
-    background-color: red;
+    background-color: burlywood;
 }
+/* llamo el atributo dese el html(<ul class= flex-container")*/
+
+h1{text-shadow: 0.1em 0.1em rgb(0, 0, 0)}
+
+h1{
+    display: flex;
+    color: rgb(171, 255, 27);
+    justify-content: center;
+    flex-flow: row ;
+    background-color: rgb(122, 128, 148);
+    padding: 10px;
+    border: 2px solid black
+
+ }
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row ;
+    background-color: rgb(122, 128, 148);
+    padding: 10px;
+    border: 2px solid black
+
+ }
+
+
+
+.flex-container li{
+    background-color: rgb(175, 255, 46);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 15px;
+    border: 2px solid black  
+        
+}
+
+
+
+    
+
+    
+
