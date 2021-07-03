@@ -1,12 +1,12 @@
-alert("Metele diseño a tu web, fijate en pinterest!!!")
+// alert("Metele diseño a tu web, fijate en pinterest!!!")
 
-var num1 = prompt("ingrese primer numero: ")
-var num2 = prompt("igrese segundo nombre: ")
+// var num1 = prompt("ingrese primer numero: ")
+// var num2 = prompt("igrese segundo nombre: ")
 
-resultado = parseInt(num1) + parseInt(num2) 
+// resultado = parseInt(num1) + parseInt(num2) 
 
-// te lo escribe en el html
-document.write(resultado)
+// // te lo escribe en el html
+// document.write(resultado)
 
-alert(resultado)
+// alert(resultado)
 
