@@ -48,7 +48,6 @@ h1{
     text-align: center;
     line-height: 70px;
     font-size: 15px;
-    font-family:minimal;
     border: 2px solid black  
     
 }
@@ -67,13 +66,19 @@ figcaption p{
     object-fit: cover;
 }
 
-form {
-    height: 200px;
+.form {
+    
+    height: 400px;
+    width: 300px;
+    margin:  0 auto;
     display: grid;
-    justify-content: center;
+    align-items: center;
+    background: red;
 }
+
+
 h4{
-    color: red;
+    color: white;
     text-transform: uppercase;
     text-align: center;
     margin: 10px;
@@ -92,3 +97,14 @@ textarea {
 button{
     margin: 10px;
     padding: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer .footer-parrafo{
+    display: block;
+    text-align: center;
+}
